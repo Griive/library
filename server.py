@@ -12,7 +12,7 @@ def add_position():
     return flask.render_template('add_position.html')
 
 @app.route('/library')
-def add_position():
+def library():
     return flask.render_template('library.html')
 
 
